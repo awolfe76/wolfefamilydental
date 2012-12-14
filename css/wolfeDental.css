@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+a img {border:none;}
+
+body {
+	background-color:#E0E0E0;
+	background-image:url(../images/bgBody.png);
+	background-repeat:repeat-x;
+	font-family:Tahoma;
+	font-size:12px;
+	line-height:16px;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+a:link, a:visited {
+	color:#145A8B;
+}
+
+a:hover {
+	color:#168B14;
+	text-decoration:none;
+}
+
+h1 {
+	background-repeat:no-repeat;
+	height:15px;
+	text-indent:-9999px;
+}
+
+h1.low {
+	margin-top:25px;
+}
+
+h1#header {
+	background-image:url(../images/bgHeader.png);
+	height:40px;
+}
+
+h1#welcome {
+	background-image:url(../images/bgWelcome.png);
+}
+
+h1#needAppt {
+	background-image:url(../images/bgNeedAppt.png);
+}
+
+h1#firstAppt {
+	background-image:url(../images/bgFirstAppt.png);
+}
+
+h1#emergency {
+	background-image:url(../images/bgEmergency.png);
+}
+
+h1#services {
+	background-image:url(../images/bgServices.png);
+}
+
+h1#financial {
+	background-image:url(../images/bgFinancial.png);
+}
+
+#container, #banner, #footer {
+	margin:0 auto;
+	width:900px;
+}
+
+#banner {
+	background-image:url(../images/bgBanner.png);
+	background-repeat:no-repeat;
+	height:290px;
+	text-indent:-9999px;
+}
+
+#footerContainer {
+	background-color:#3D372E;
+	border-top:8px solid #FFFFFF;
+	clear:both;
+	margin-top:20px;
+	text-align:right;
+}
+
+#footer {
+	color:#7F7970;
+	font-size:11px;
+	height:30px;
+	padding-top:12px;
+}
+
+#content {
+	margin-top:30px;
+	text-align:left;
+}
+
+.cols {
+	float:left;
+	margin-bottom:20px;
+	padding:0 10px;
+}
+
+#leftCol {
+	padding-left:0;
+	width:340px;
+}
+
+#midCol {
+	border-right:1px solid #BBB;
+	border-left:1px solid #BBB;
+	width:253px;
+}
+
+#rightCol {
+	width:255px;
+}
+
+p {
+	padding-top:5px;
+}
+
+p.sub {
+	color:#757165;
+	font-size:11px;
+	font-style:italic;
+}
+
+p.spacer {
+	padding-top:20px;
+}
+
+ul.services {
+	list-style:none;
+	margin:5px 0 0 0;
+	padding:0;
+}
+
+ul.services li {
+	background-image:url(../images/check.png);
+	background-position:0% 50%;
+	background-repeat:no-repeat;
+	line-height:20px;
+	list-style-type:none;
+	margin:0;
+	padding:0 0 0 20px;
+}
