@@ -96,8 +96,11 @@ ul.services li {
 	#header h5 {
 		margin:0 5px;
 	}
+	#banner {
+		margin-top: 10px;
+	}
 	#banner hgroup {
-		margin: 10px 0;
+		margin: 0 0 10px;
 		text-align: center;
 	}
 	#banner hgroup h3 {
